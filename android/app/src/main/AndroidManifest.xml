@@ -25,12 +25,12 @@
     </queries>
 
     <application
-        android:label="6amMart"
+        android:label="Wholesale Linker"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ"/>
+            android:value="AIzaSyAmvhJpkGIRWiNwNflGSSdOjOEwBl23Aco"/>
 
         <activity
             android:name=".MainActivity"
@@ -55,7 +55,7 @@
                  Flutter's first frame. -->
             <meta-data
                 android:name="com.google.firebase.messaging.default_notification_channel_id"
-                android:value="6ammart" />
+                android:value="wholesalelinker" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
