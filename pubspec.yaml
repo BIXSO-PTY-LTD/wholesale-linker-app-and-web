@@ -44,7 +44,7 @@ dependencies:
   expandable_bottom_sheet: ^1.1.1+1
   google_sign_in: ^5.4.2
   google_sign_in_web: ^0.10.2
-  flutter_facebook_auth: ^6.0.4
+  flutter_facebook_auth: 6.0.4
   flutter_animarker: ^3.2.0
   sign_in_with_apple: ^4.3.0
   intl: ^0.18.0

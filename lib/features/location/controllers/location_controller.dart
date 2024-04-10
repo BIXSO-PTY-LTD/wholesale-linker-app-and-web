@@ -162,7 +162,7 @@ class LocationController extends GetxController implements GetxService {
     }
     ZoneResponseModel responseModel = await locationServiceInterface.getZone(lat, lng, handleError: handleError);
     _inZone = responseModel.isSuccess;
-    _zoneID = responseModel.zoneIds[0];
+    _zoneID = responseModel.zoneIds[0]??0;
     if(updateInAddress && responseModel.isSuccess) {
       AddressModel address = AddressHelper.getUserAddressFromSharedPref()!;
       address.zoneData = responseModel.zoneData;
